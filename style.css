@@ -13,6 +13,8 @@ body {
 
 .container {
     max-width: 800px;
+    min-width: 400px;
+    min-height: 400px;
     padding: 20px;
     background: linear-gradient(135deg, #3D1A78, #5049CC);
     border-radius: 8px;
@@ -35,4 +37,12 @@ li {
     padding-left: 25px;
     margin-bottom: 2px;
     font-size: 20px;
+}
+
+a {
+    color: #7BADE2;
+}
+
+a:hover {
+    color: #FFFFFF;
 }
